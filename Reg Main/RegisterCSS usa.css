@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Sh{
+    background-color: 7F7F7F;
+    color: 56EEE5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.larger text{
+    font-family: 'Kalam', sans-serif;
+}
+
+h2 {
+    font-family: 'Kalam', sans-serif;
+    font-size: 27px;
+}
+
+.reg1, .reg2 {
+    font-family: 'Kaisei Tokumin', sans-serif;
+
+}
+
+body{
+    text-align: center;
+    background-color: F5F5F5;
+}
+
+.info {
+  
+display: inline-block; /* Робимо слово блочним елементом */
+    text-align: left; /* Вирівнюємо слово по лівій стороні */ 
+    margin-top: 20px;
+    font-family: 'Jura', sans-serif;
+    font-size: 19px;
+}
+
+.startreg{
+margin-top: 30px;
+font-size: 18.5px;
+font-family: 'Jura', sans-serif;
+border-radius: 4px;
+background-color:6B78F2
+}
+
+.rules{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18.5px;
+    font-family: 'Jura', sans-serif;
+    border-radius: 4px;
+    background-color:B3B9EE
+}
+
+footer{
+    background-color: B3B3B3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white; /* Колір тексту */
+    text-align: center; /* Вирівнювання тексту по центру */
+    padding: 20px; /* Відступи від країв */
+    a {
+        color: rgb(68, 68, 68); 
+    } 
+     
+}
+
+.USAflag{
+padding-bottom: 10px;
+padding-top: 4;
+}

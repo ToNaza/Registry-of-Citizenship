@@ -1,0 +1,82 @@
+<html>
+    <head><title> Реєстрація</title> 
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="REGuaCSS.css">
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="REGuaJS.js"></script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jura&display=swap">
+    
+
+
+       
+    </head>
+
+<header>
+<h3> Registration </h3>
+<p>Будь ласка, введіть свої дані нижче </p>
+<p>та нажміть ОК</p>
+<p>Вся ваша інформація знаходиться під</p>
+<p>охороною законодавства чату, у</p>
+<p>вападку його розповсюдження ви</p>
+<p>маєте право звернутися до суду</p>
+
+
+</header>
+
+<body>
+    <div class="fromis">
+        <form id="registrationForm" name="submit-to-google-sheet">
+    <div class="strok1" >   <label for="telegram" ></label><br>
+            <input class="form-field" type="text" id="Name" name="Name"  placeholder="Введіть ім'я в Телеграмі" required><br>
+    </div>
+    <div class="strok2">   <label for="surname"></label><br>
+            <input class="form-field"  type="text" id="Surname" name="Surname"   placeholder="Введіть видумане Приізвище" required><br>
+    </div>
+    <div class="strok3">   <label for="username"></label><br>
+            <input class="form-field"  type="text" id="Username" name="Username" placeholder="Введіть ваш @ в телеграмі" required><br>
+    </div>
+    <div class="strok4">   <label for="entryDate"></label>Дата входу до чату:<br>
+            <input class="form-field"  type="date" id="entryDate" name="entryDate" required><br>
+    </div>
+    <div class="strok5">   <label for="email"> (по бажанню):</label><br>
+            <input class="form-field" type="text" type="email" id="email" name="email" placeholder="Введіть ваш e-mail"><br>
+    </div> 
+            <input class="ok" type="submit" value="OK">
+    </div>
+</form>
+
+<script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxzGID9vUou7lC1oJILpqTe9mmKJKMBOHQcWZHpgKuDn_R0cH3sX1k50dxImX3LgVJA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+
+</body>
+
+<footer>
+        <a href="../Reg головна/RegisteHTML.html" ><button class="exid" > На головну </button></a>
+    
+    
+    <p class="vers">0.2</p>
+</footer>
+
+
+</html>
