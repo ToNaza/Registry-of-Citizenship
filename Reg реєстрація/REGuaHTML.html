@@ -35,7 +35,7 @@
 
 <body>
     <div class="fromis">
-        <form id="registrationForm" name="submit-to-google-sheet">
+        <form id="registrationForm" action="#" name="submit-to-google-sheet">
     <div class="strok1" >   <label for="telegram" ></label><br>
             <input class="form-field" type="text" id="Name" name="Name"  placeholder="Введіть ім'я в Телеграмі" required><br>
     </div>
@@ -56,7 +56,7 @@
 </form>
 
 <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxzGID9vUou7lC1oJILpqTe9mmKJKMBOHQcWZHpgKuDn_R0cH3sX1k50dxImX3LgVJA/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyGKhspGvXaPirYLhObDC-bATmXdsgdOrAxMEMCiq7qZ1kJuSLrUM24AGCAq2K-L3jM/exec'
         const form = document.forms['submit-to-google-sheet']
       
         form.addEventListener('submit', e => {
@@ -66,7 +66,6 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
-
 
 
 </body>
