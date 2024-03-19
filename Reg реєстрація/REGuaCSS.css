@@ -14,6 +14,7 @@ padding-bottom: 20px;
 header p{
 font-family: 'Jura';
 text-align: center;
+color: white;
 }
 
 
@@ -44,22 +45,7 @@ background-color: DDDDDD;
     border-radius: 3px;
    }
 
-  
 
-
-}
-.strok1{
-
-
-}
-
-.strok2{
-  
-}
-
-.strok3{
-   
-}
 
 .strok4{
    margin-top: 30px;
@@ -90,9 +76,9 @@ footer{
 
 .exid{
 background-color: rgb(157, 157, 157);
+border-color: black;
 color: white;
 border-radius: 6px;
-margin-bottom: 10px;
 }
 
 .vers{
@@ -107,4 +93,3 @@ input[type="text"] {
   input[type="date"] {
     width: 300px; /* Встановлюємо ширину в 200 пікселів */
   }
-
