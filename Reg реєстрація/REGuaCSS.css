@@ -21,7 +21,7 @@ h3{
     font-family: 'Kalam' ;
     color: rgb(2, 218, 2);
     text-align: center;
-    padding-right: 100px;
+    padding-right: 150px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -92,13 +92,11 @@ footer{
 background-color: rgb(157, 157, 157);
 color: white;
 border-radius: 6px;
- margin-bottom: 20px;
 }
 
 .vers{
     position: absolute;
-    margin-bottom: 35px;
- 
+    margin-bottom: 25px;
 }
 
 input[type="text"] {
