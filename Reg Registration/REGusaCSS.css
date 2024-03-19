@@ -1,105 +1,98 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 header{ 
-background-color: 7F7F7F;
+background-color: rgb(102, 102, 102);
 padding-bottom: 20px;
 
-h3{
-    font-family: 'Kalam' ;
-    color: 9EFF00;
-    text-align: center;
-    padding-right: 200px;
-    padding-top: 30px;
-    padding-bottom: 10px;
 }
 
-p{
-    color:white;
-    text-align: center;
-    font-family:'Jura'
+header p{
+font-family: 'Jura';
+text-align: center;
+color: white;
 }
+
+
+h3{
+  font-family: 'Kalam' ;
+  color: rgb(2, 218, 2);
+  text-align: center;
+  padding-right: 175px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.fromis{
+text-align: center;
+padding-top: 30px;
+font-size: 20px;
 }
 
 body{
 background-color: DDDDDD;
 }
 
-.fromis{
-    text-align: center;
-   padding-top: 30px;
-   font-size: 20px;
- 
 
-   .ok{
-    margin-top: 250px;
-    margin-left: 200px;
-    background-color: rgb(0, 203, 0);
-    border-radius: 3px;
-   }
+ .ok{
+background-color: rgb(0, 176, 0);
+border-radius: 8px;
+width: 50px;
+border-color: black;
 
-  
+margin-top: 30px;
+margin-left: 240px;
+ }
 
 
-}
-.strok1{
-
-
-}
-
-.strok2{
-  
-}
-
-.strok3{
-   
-}
 
 .strok4{
-   margin-top: 30px;
-   font-size: 15px;
+ margin-top: 30px;
+ font-size: 15px;
 
 }
 
 .strok5{
-    font-size: 15px;
-   margin-top: 14px;
-   
+  font-size: 15px;
+ margin-top: 14px;
+ 
 }
 
 
 .form-field {
-    margin-bottom: -12px; /* Встановлюємо відступ внизу кожного поля */
-    font-size: 19px;
-  }
+  margin-bottom: -12px; /* Встановлюємо відступ внизу кожного поля */
+  font-size: 19px;
+}
 
 
 footer{
-  margin-left: 2%;
-    text-align: center;
+position: fixed;
+bottom: 15px;
+left: 0;
+width: 100%;
+text-align: center;
 }
 
 .exid{
-
+background-color: rgb(157, 157, 157);
+border-color: black;
+color: white;
+border-radius: 6px;
 }
 
 .vers{
-    position: absolute;
- 
+  position: absolute;
+  margin-bottom: 25px;
 }
 
 input[type="text"] {
-    width: 300px; /* Встановлюємо ширину в 200 пікселів */
-  }
+  width: 300px; /* Встановлюємо ширину в 200 пікселів */
+}
 
-  input[type="date"] {
-    width: 300px; /* Встановлюємо ширину в 200 пікселів */
-  }
-
-.sorry{
-  padding-top: 10px;
+input[type="date"] {
+  width: 300px; /* Встановлюємо ширину в 200 пікселів */
 }
