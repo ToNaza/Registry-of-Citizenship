@@ -12,7 +12,6 @@ padding-bottom: 20px;
 
 header p{
 font-family: 'Jura';
-padding-left: 10%;
 }
 
 
@@ -23,7 +22,6 @@ h3{
     padding-right: 200px;
     padding-top: 30px;
     padding-bottom: 10px;
-    padding-left: 10%;
 }
 
 
@@ -96,6 +94,7 @@ border-radius: 6px;
 
 .vers{
     position: absolute;
+    margin-bottom: 15px;
  
 }
 
