@@ -45,7 +45,8 @@ margin-top: 20px;
 font-size: 18.5px;
 font-family: 'Jura', sans-serif;
 border-radius: 4px;
-background-color:6B78F2
+background-color:6B78F2;
+color:rgb(0, 0, 0);
 }
 
 .rules{
@@ -54,7 +55,8 @@ background-color:6B78F2
     font-size: 18.5px;
     font-family: 'Jura', sans-serif;
     border-radius: 4px;
-    background-color:B3B9EE
+    background-color:B3B9EE;
+    color:rgb(0, 0, 0);
 }
 
 footer{
@@ -74,4 +76,8 @@ footer{
 
 .UAflag{
 padding-bottom: 10px;
+}
+
+footer{
+   
 }
