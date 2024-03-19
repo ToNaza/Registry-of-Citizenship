@@ -21,7 +21,7 @@ h3{
     font-family: 'Kalam' ;
     color: rgb(2, 218, 2);
     text-align: center;
-    padding-right: 120px;
+    padding-right: 80px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -96,6 +96,7 @@ border-radius: 6px;
 
 .vers{
     position: absolute;
+    margin-top: 20px;
     margin-bottom: 35px;
  
 }
