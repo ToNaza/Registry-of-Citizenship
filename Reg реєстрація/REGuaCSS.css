@@ -12,6 +12,7 @@ padding-bottom: 20px;
 
 header p{
 font-family: 'Jura';
+text-align: center;
 }
 
 
@@ -19,7 +20,7 @@ h3{
     font-family: 'Kalam' ;
     color: rgb(2, 218, 2);
     text-align: center;
-    padding-right: 200px;
+    padding-right: 240px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
