@@ -8,10 +8,11 @@
 header{ 
 background-color: 7F7F7F;
 padding-bottom: 20px;
+text-align: center;
 
 h3{
     font-family: 'Kalam' ;
-    color: 9EFF00;
+    color: rgb(2, 218, 2);
     text-align: center;
     padding-right: 200px;
     padding-top: 30px;
@@ -84,7 +85,9 @@ footer{
 }
 
 .exid{
-
+position: absolute;
+margin-bottom: 10px;
+margin-left: 50%;
 }
 
 .vers{
