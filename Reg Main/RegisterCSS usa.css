@@ -29,6 +29,7 @@ h2 {
 body{
     text-align: center;
     background-color: F5F5F5;
+    min-height: 140vh;
 }
 
 .info {
@@ -46,6 +47,7 @@ font-size: 18.5px;
 font-family: 'Jura', sans-serif;
 border-radius: 4px;
 background-color:6B78F2
+color: black;
 }
 
 .rules{
@@ -54,7 +56,8 @@ background-color:6B78F2
     font-size: 18.5px;
     font-family: 'Jura', sans-serif;
     border-radius: 4px;
-    background-color:B3B9EE
+    background-color:B3B9EE;
+    color: black;
 }
 
 footer{
