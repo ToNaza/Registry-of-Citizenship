@@ -8,6 +8,7 @@
 header{ 
 background-color: rgb(102, 102, 102);
 padding-bottom: 20px;
+
 }
 
 header p{
@@ -20,7 +21,7 @@ h3{
     font-family: 'Kalam' ;
     color: rgb(2, 218, 2);
     text-align: center;
-    padding-right: 240px;
+    padding-right: 180px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
