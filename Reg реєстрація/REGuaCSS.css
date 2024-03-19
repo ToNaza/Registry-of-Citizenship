@@ -39,9 +39,16 @@ background-color: DDDDDD;
 
 
    .ok{
-    margin-left: 200px;
+    margin-left: 900px;
+    
     background-color: rgb(0, 203, 0);
     border-radius: 3px;
+
+    position: fixed;
+    bottom: 15px;
+    left: 0;
+    text-align: center;
+  
    }
 
 
