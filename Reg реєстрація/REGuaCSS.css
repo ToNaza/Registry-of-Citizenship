@@ -6,9 +6,11 @@
 
 
 header{ 
-background-color: 7F7F7F;
+background-color: white;
 padding-bottom: 20px;
-text-align: center;
+font-family: 'Jura';
+margin-right: 10%;
+
 
 h3{
     font-family: 'Kalam' ;
@@ -80,13 +82,18 @@ background-color: DDDDDD;
 
 
 footer{
-  margin-left: 2%;
-    text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px; 
+  text-align: center;
 }
 
 .exid{
-position: absolute;
-
+background-color: rgb(157, 157, 157);
+color: white;
+border-radius: 6px;
 }
 
 .vers{
