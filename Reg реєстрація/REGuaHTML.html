@@ -35,15 +35,15 @@
 
 <body>
     <div class="fromis">
-        <form id="registrationForm" action="#" name="submit-to-google-sheet">
+        <form id="myForm" action="#">
        <label for="Telegram" ></label><br>
-            <input class="form-field" type="text" id="name" name="name"   placeholder="Введіть ім'я в Телеграмі" required><br>
+            <input class="form-field" type="text" id="name" name="Name"   placeholder="Введіть ім'я в Телеграмі" required><br>
     
        <label for="Surname"></label><br>
-            <input class="form-field"  type="text" id="surname" name="surname"    placeholder="Введіть видумане Приізвище" required><br>
+            <input class="form-field"  type="text" id="surname" name="Surname"    placeholder="Введіть видумане Приізвище" required><br>
    
        <label for="Username"></label><br>
-            <input class="form-field"  type="text" id="username" name="username"  placeholder="Введіть ваш @ в телеграмі" required><br>
+            <input class="form-field"  type="text" id="username" name="Username"  placeholder="Введіть ваш @ в телеграмі" required><br>
     
     <div class="strok4">   <label for="entryDate"></label>Дата входу до чату:<br>
             <input class="form-field"  type="date" id="entryDate"  lang="en" name="entryDate" required><br>
@@ -54,20 +54,6 @@
             <button class="ok" type="submit" onclick="submitForm()"> Ok </button>
     
 </form>
-
-<script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbz29ADCinQEKGjWdEGcy2aqtJQk2sEMHUgm1jUv_fGOVzoWI8W3BrylngwiHgwi2Ce5/exec'
-        const form = document.forms['submit-to-google-sheet']
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-        })
-
-          </script>
-
 
 </body>
 
